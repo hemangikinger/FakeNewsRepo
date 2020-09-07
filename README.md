@@ -1,2 +1,3 @@
-# FakeNewsRepo
-Fake News Repo
+# FakeNewsClassifier
+FakeNewsCLassifier
+pip install numpy pandas sklearn
