@@ -40,4 +40,4 @@ Follow the below steps for detecting fake news and complete your first advanced 
 
 1. Make necessary imports:
 
-![Imports Screenshot](https://github.com/hemangikinger/FakeNewsRepo/python-projects-imports-data.png)
+![Imports Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-imports-data.png)
