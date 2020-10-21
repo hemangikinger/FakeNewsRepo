@@ -40,11 +40,11 @@ Follow the below steps for detecting fake news and complete your first advanced 
 
 1. Make necessary imports:
 
-![Imports Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-imports-data_LI.jpg)
+![Imports Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-imports-data_LI.jpg?raw=true)
 
 2. Now, let’s read the data into a DataFrame, and get the shape of the data and the first 5 records.
 
-![Read Data Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-read-data_LI.jpg)
+![Read Data Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-read-data_LI.jpg?raw=true)
 
 3. And get the labels from the DataFrame.
 
