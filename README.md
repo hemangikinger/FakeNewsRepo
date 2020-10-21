@@ -40,4 +40,45 @@ Follow the below steps for detecting fake news and complete your first advanced 
 
 1. Make necessary imports:
 
-![Imports Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-imports-data.png)
+![Imports Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-imports-data_LI.jpg)
+
+2. Now, let’s read the data into a DataFrame, and get the shape of the data and the first 5 records.
+
+![Read Data Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-read-data_LI.jpg)
+
+3. And get the labels from the DataFrame.
+
+![Get Labels Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-get-labels-_LI.jpg)
+
+4. Split the dataset into training and testing sets
+
+![Split dataset Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/split-dataset-in-python-projects_LI.jpg)
+
+5. Let’s initialize a TfidfVectorizer with stop words from the English language and a maximum document frequency of 0.7 (terms with a higher document frequency will be discarded). Stop words are the most common words in a language that are to be filtered out before processing the natural language data. And a TfidfVectorizer turns a collection of raw documents into a matrix of TF-IDF features.
+
+Now, fit and transform the vectorizer on the train set, and transform the vectorizer on the test set.
+
+![TfidfVectorizer Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/python-projects-tfidf_LI.jpg)
+
+6. Next, we’ll initialize a PassiveAggressiveClassifier. This is. We’ll fit this on tfidf_train and y_train.
+
+Then, we’ll predict on the test set from the TfidfVectorizer and calculate the accuracy with accuracy_score() from sklearn.metrics.
+
+![PassiveAggressiveClassifier Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/passive-aggressive-calssifier-in-python-projects_LI.jpg)
+
+7. We got an accuracy of 92.82% with this model. Finally, let’s print out a confusion matrix to gain insight into the number of false and true negatives and positives.
+
+![confusion matrix Screenshot](https://github.com/hemangikinger/FakeNewsRepo/blob/master/confusion-matrix-python-projects_LI.jpg)
+
+So with this model, we have 589 true positives, 587 true negatives, 42 false positives, and 49 false negatives.
+
+## Summary
+
+Today, we learned to detect fake news with Python. We took a political dataset, implemented a TfidfVectorizer, initialized a PassiveAggressiveClassifier, and fit our model. We ended up obtaining an accuracy of 92.82% in magnitude.
+
+
+
+
+
+
+
